@@ -12,7 +12,7 @@ const Banner = () => {
                </h1>
               </div>
 
-              <div className='pb-20 px-16'>
+              <div className='pb-20 px-16 pt-5'>
                 <h2>{hero.title}</h2>
                 <br/>
                 <div className='flex justify-end'>

@@ -10,12 +10,6 @@ import python from "./assets/images/Skills/python.png";
 
 import services_logo1 from "./assets/images/Services/logo1.png";
 import services_logo2 from "./assets/images/Services/logo2.png";
-import services_logo3 from "./assets/images/Services/logo3.png";
-
-// import project1 from "./assets/images/projects/img1.png";
-// import project2 from "./assets/images/projects/img2.png";
-// import project3 from "./assets/images/projects/img3.png";
-// import person_project from "./assets/images/projects/person.png";
 
 import avatar1 from "./assets/images/Testimonials/avatar1.png";
 import avatar2 from "./assets/images/Testimonials/avatar2.png";
@@ -113,7 +107,7 @@ export const content = {
     subtitle: "WHAT I OFFER",
     service_content: [
       {
-        title: "Web Development",
+        title: "Frontend Development",
         para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
         logo: services_logo1,
       },
@@ -123,31 +117,30 @@ export const content = {
         logo: services_logo2,
       },
       {
-        title: "PhotoShop Editing",
+        title: "MERN-Stack Development",
         para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
-        logo: services_logo3,
+        logo: services_logo1,
       },
     ],
   },
-//   Projects: {
-//     title: "Projects",
-//     subtitle: "MY CREATION",
-//     image: person_project,
-//     project_content: [
-//       {
-//         title: "Gym Website",
-//         image: project1,
-//       },
-//       {
-//         title: "Social Media web",
-//         image: project2,
-//       },
-//       {
-//         title: "Creative Website",
-//         image: project3,
-//       },
-//     ],
-//   },
+  projects: {
+    title: "Projects",
+    subtitle: "MY CREATION",
+    projects_content: [
+      {
+        title: "Web Development",
+        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+      },
+      {
+        title: "ui / ux DESIGNING",
+        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+      },
+      {
+        title: "PhotoShop Editing",
+        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+      },
+    ],
+  },
   Testimonials: {
     title: "Testimonials",
     subtitle: "MY CLIENT REVIEWS",
