@@ -128,16 +128,28 @@ export const content = {
     subtitle: "MY CREATION",
     projects_content: [
       {
-        title: "Web Development",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+        title: "CoderAccess",
+        type:"FULL-STACK",
+        image:"https://luique.bslthemes.com/wp-content/uploads/2021/11/work7.jpg",
+        para: "This is a team project. Users can enrol in any courses and get certificates by skill test. Learn DS and algorithms from here & get preparation for tech jobs. Users can participate in our competitive programming contest.",
+        live:"https://coder-access.web.app/",
+        code:"https://github.com/raselcsedev/coder-byte"
       },
       {
-        title: "ui / ux DESIGNING",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+        title: "Delta CarParts",
+        type:"FULL-STACK",
+        image:"https://luique.bslthemes.com/wp-content/uploads/2021/11/work7.jpg",
+        para: "This is a car parts buying website. Dashboard for users and admins. Users can see their order history. Admin can see payment history. The order status can be controlled by admin.",
+        live:"https://coder-access.web.app/",
+        code:"https://github.com/raselcsedev/coder-byte"
       },
       {
-        title: "PhotoShop Editing",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+        title: "groceBari",
+        type:"FRONTEND",
+        image:"https://luique.bslthemes.com/wp-content/uploads/2021/11/work7.jpg",
+        para: "This is a grocery business website. User can see all grocery products without login. User can filter category wise  and buy it. Payment method will be implemented soon.",
+        live:"https://coder-access.web.app/",
+        code:"https://github.com/raselcsedev/coder-byte"
       },
     ],
   },
@@ -171,8 +183,8 @@ export const content = {
       },
     ],
   },
-  Contact: {
-    title: "Contect Me",
+  contact: {
+    title: "Contact Me",
     subtitle: "GET IN TOUCH",
     social_media: [
       {
