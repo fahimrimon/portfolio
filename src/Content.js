@@ -1,12 +1,15 @@
 // import images
-import Hero_person from "./assets/images/Hero/person.png";
+import Hero_person from "./assets/images/hero/person.png";
 
-import figma from "./assets/images/Skills/figma.png";
-import sketch from "./assets/images/Skills/sketch.png";
-import ps from "./assets/images/Skills/ps.png";
 import reactjs from "./assets/images/Skills/react.png";
 import nodejs from "./assets/images/Skills/node.png";
-import python from "./assets/images/Skills/python.png";
+import javascript from "./assets/images/Skills/javascript.png";
+import tailwind from "./assets/images/Skills/tailwind.png";
+import redux from "./assets/images/Skills/redux.png";
+import mongodb from "./assets/images/Skills/mongodb.png";
+import express from "./assets/images/Skills/express.png";
+import firebase from "./assets/images/Skills/firebase.png";
+import typescript from "./assets/images/Skills/typescript.png";
 
 import services_logo1 from "./assets/images/Services/logo1.png";
 import services_logo2 from "./assets/images/Services/logo2.png";
@@ -16,10 +19,8 @@ import avatar2 from "./assets/images/Testimonials/avatar2.png";
 import avatar3 from "./assets/images/Testimonials/avatar3.png";
 import avatar4 from "./assets/images/Testimonials/avatar4.png";
 
-// import icons from react-icons
 import { GrMail } from "react-icons/gr";
 import { MdArrowForward, MdCall } from "react-icons/md";
-// import { BsInstagram } from "react-icons/bs";
 import { TbSmartHome } from "react-icons/tb";
 import { BiUser } from "react-icons/bi";
 import { RiServiceLine, RiProjectorLine } from "react-icons/ri";
@@ -52,7 +53,7 @@ export const content = {
     title: "Web Developer",
     firstName: "FAHIM",
     LastName: "RIMON",
-    btnText: "Hire Me",
+    btnText: "Resume",
     image: Hero_person,
     hero_content: [
       {
@@ -70,19 +71,14 @@ export const content = {
     subtitle: "MY TOP SKILLS",
     skills_content: [
       {
-        name: "Figma",
+        name: "JavaScript",
         para: "Lorem ipsum text  dummy",
-        logo: figma,
+        logo: javascript,
       },
       {
-        name: "Node js",
+        name: "Tailwind",
         para: "Lorem ipsum text  dummy",
-        logo: nodejs,
-      },
-      {
-        name: "Adobe Photoshop",
-        para: "Lorem ipsum text  dummy",
-        logo: ps,
+        logo: tailwind,
       },
       {
         name: "React js",
@@ -90,14 +86,34 @@ export const content = {
         logo: reactjs,
       },
       {
-        name: "Sketch",
+        name: "Redux",
         para: "Lorem ipsum text  dummy",
-        logo: sketch,
+        logo: redux,
       },
       {
-        name: "Python",
+        name: "TypeScript",
         para: "Lorem ipsum text  dummy",
-        logo: python,
+        logo: typescript,
+      },
+      {
+        name: "Firebase",
+        para: "Lorem ipsum text  dummy",
+        logo: firebase,
+      },
+      {
+        name: "Node js",
+        para: "Lorem ipsum text  dummy",
+        logo: nodejs,
+      },
+      {
+        name: "Express js",
+        para: "Lorem ipsum text  dummy",
+        logo: express,
+      },
+      {
+        name: "MongoDB",
+        para: "Lorem ipsum text  dummy",
+        logo: mongodb,
       },
     ],
     icon: MdArrowForward,
@@ -108,17 +124,17 @@ export const content = {
     service_content: [
       {
         title: "Frontend Development",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+        para: "I will create a complete responsive website using tailwind, javaScript, reactjs and redux.",
         logo: services_logo1,
       },
       {
         title: "ui / ux DESIGNING",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+        para: "I will create modern website for you. When I build websites I always design according to ui/ux design.",
         logo: services_logo2,
       },
       {
         title: "MERN-Stack Development",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+        para: "I will create a complete responsive website using reactjs, nodejs, mongodb and also use firebase for authentication.",
         logo: services_logo1,
       },
     ],
@@ -130,7 +146,7 @@ export const content = {
       {
         title: "CoderAccess",
         type:"FULL-STACK",
-        image:"https://luique.bslthemes.com/wp-content/uploads/2021/11/work7.jpg",
+        image:"https://i.ibb.co/f8QGK32/coder-Access.png",
         para: "This is a team project. Users can enrol in any courses and get certificates by skill test. Learn DS and algorithms from here & get preparation for tech jobs. Users can participate in our competitive programming contest.",
         live:"https://coder-access.web.app/",
         code:"https://github.com/raselcsedev/coder-byte"
@@ -138,18 +154,18 @@ export const content = {
       {
         title: "Delta CarParts",
         type:"FULL-STACK",
-        image:"https://luique.bslthemes.com/wp-content/uploads/2021/11/work7.jpg",
+        image:"https://i.ibb.co/6m6nwFR/deltaCar.png",
         para: "This is a car parts buying website. Dashboard for users and admins. Users can see their order history. Admin can see payment history. The order status can be controlled by admin.",
-        live:"https://coder-access.web.app/",
-        code:"https://github.com/raselcsedev/coder-byte"
+        live:"https://delta-car-parts.vercel.app/",
+        code:"https://github.com/fahimrimon/delta-car-parts-client"
       },
       {
         title: "groceBari",
         type:"FRONTEND",
-        image:"https://luique.bslthemes.com/wp-content/uploads/2021/11/work7.jpg",
+        image:"https://i.ibb.co/5LCns8K/groce-Bari.png",
         para: "This is a grocery business website. User can see all grocery products without login. User can filter category wise  and buy it. Payment method will be implemented soon.",
-        live:"https://coder-access.web.app/",
-        code:"https://github.com/raselcsedev/coder-byte"
+        live:"https://groce-bari.vercel.app/",
+        code:"https://github.com/fahimrimon/groce-bari"
       },
     ],
   },
@@ -197,11 +213,6 @@ export const content = {
         icon: MdCall,
         link: "https://wa.me/1234567890",
       },
-    //   {
-    //     text: "codeaprogram",
-    //     icon: BsInstagram,
-    //     link: "https://www.instagram.com/codeaprogram/",
-    //   },
     ],
   },
   Footer: {
